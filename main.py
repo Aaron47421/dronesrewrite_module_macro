@@ -51,6 +51,7 @@ def new_console():
     return Console()
 
 
+# the main function for the console and the config
 def main():
     settings = configuration()
 
@@ -70,5 +71,6 @@ def main():
             time.sleep(0.1)
             pyautogui.press("enter")
 
+# check if the script is ran as main
 if __name__ == "__main__":
     main()
